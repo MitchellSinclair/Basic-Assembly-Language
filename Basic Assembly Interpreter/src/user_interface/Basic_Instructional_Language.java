@@ -202,7 +202,7 @@ public class Basic_Instructional_Language extends Application{
 			Scanner scn3 = new Scanner(code.getText());
 			while (scn3.hasNextLine()) {
 				String str = scn3.nextLine();
-				wrt.write(str);
+				wrt.write(str+"\n");
 			}
 			scn3.close();
 			wrt.close();
